@@ -24,6 +24,7 @@ namespace FounderCommunityAzureFunction
         public string email { get; set; }
         public string linkedin { get; set; }
         public string cxoDescription { get; set; }
+        public string Country { get; set; }
         
     }
 }

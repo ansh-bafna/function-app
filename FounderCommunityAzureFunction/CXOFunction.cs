@@ -50,7 +50,8 @@ namespace FounderCommunityAzureFunction
                             responseTimeInMin= (int)reader["responseTimeInMin"],
                             email = reader["email"].ToString(),
                             linkedin= reader["linkedin"].ToString(),
-                            cxoDescription= reader["cxoDescription"].ToString()
+                            cxoDescription= reader["cxoDescription"].ToString(),
+                            Country= reader["Country"].ToString()
                         };
                         cxolist.Add(cxo);
                     }
